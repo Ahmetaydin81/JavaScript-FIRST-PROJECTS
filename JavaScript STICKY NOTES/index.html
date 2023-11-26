@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STİCKY NOTES</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container1">
+            <button class="btn" onclick="typeNote()">NOT OLUŞTUR</button>
+        </div>
+        <div class="container2"></div>
+        <div class="container3">
+            <form>
+                <textarea id="note-text" maxlength="96" placeholder="Not Yaz..">
+                </textarea>
+                <span id="check-icon">✔️</span>
+                <span id="x-icon">✖️</span>
+
+            </form>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

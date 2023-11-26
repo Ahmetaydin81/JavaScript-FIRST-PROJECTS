@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BİLGİ KARTI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+    
+        <header>
+          <div class="container">
+            <div id="header">
+              <h1>BİLGİ KARTLARI</h1>
+              <div>
+                <button id="show_card_box">KART OLUŞTUR</button>
+                <button id="delete_cards">KARTLAR SİL</button>
+              </div>
+            </div>
+          </div>
+        </header>
+        
+        <section>
+          <div class="container">
+            <div id="create_card">
+              <h2>BİLGİ KARTI OLUŞTUR</h2>
+              <label for="question"></label>
+              <textarea id="question" maxlength="280" placeholder="SORU GİRİNİZ.."></textarea>
+              <label for="answer" maxlength="280"></label>
+              <br>
+              <textarea id="answer" placeholder="CEVAP GİRİNİZ.."></textarea>
+              <div>
+                <button id="save_card">KAYDET</button> 
+                <button id="close_card_box" class="buttonClose">KAPAT</button>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <section>
+          <div class="container">
+            <div id="flashcards"></div>
+          </div>
+        </section>
+    
+      </main>
+      
+    <script src="app.js"></script>
+</body>
+
+</html>

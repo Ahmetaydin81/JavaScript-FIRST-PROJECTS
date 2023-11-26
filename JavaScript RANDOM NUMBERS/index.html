@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RASTGELE SAYI </title>
+    <style>
+        body {
+            background-image:url(PENUP.png) ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            width: 100%;
+            margin: 0;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            backdrop-filter: blur(25px);
+        }
+        button:hover{
+         box-shadow: 0px 0px 25px 1px red;
+
+        }
+    </style>
+</head>
+
+<body>
+   
+    <button style="background-color:rgb(78, 78, 78);
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border-radius: 5px;
+    border:2px solid black;
+    padding: 10px;
+    cursor: pointer;
+    " onclick="myFunction()">CLİCK</button>
+    
+    <p style="font-size: xxx-large;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    border:2px solid black;
+    box-shadow: 0px 0px 25px 1px red;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 50;
+    padding:20px;
+    text-align: center;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    " id="demo"></p>
+
+
+    <script>
+        function myFunction() {
+            let points = Math.floor(Math.random() * 10);
+            document.getElementById("demo").innerHTML = points;
+        }
+        
+
+    </script>
+
+</body>
+
+</html>

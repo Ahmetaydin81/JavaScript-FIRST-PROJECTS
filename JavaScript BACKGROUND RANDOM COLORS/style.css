@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(0, 0, 0, 0.132);
+}
+.section{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+
+}
+.btn{
+    height: 60px;
+    width: 250px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.889);
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 25px;
+}
+.btn:active{
+    border: none;
+    border: 3px solid black;
+
+}
+.btn:hover{
+    color: rgb(201, 201, 201);
+    background-color: rgba(69, 69, 69, 0.889);
+}
+@keyframes color {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter:hue-rotate(180deg);
+    }
+    
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="card-title">Todo LİST SAYFASI</h5>
+                </div>
+                <div class="card-body">
+                    <form id="todoAddform" class="mt-2">
+                        <input type="text" class="form-control mt-2" id="todoName" aria-describedby="todo"
+                            placeholder="Todo Giriniz...">
+
+                        <button id="todoAddButton" type="submit" class="btn btn-primary mt-4 btn-sm">
+                            Todo Ekleyiniz
+                        </button>
+                        <!-- alert message--- uyarı mesajları-->
+                    </form>
+                    <hr>
+                </div>
+
+
+                <div class="card-body">
+                    <h5 class="card_title">Todo LİSTESİ</h5>
+                    <form name="form2" id="todoListForm">
+                        <input type="text" id="todoSearch" class="form_control mt-3" placeholder="Todo Arayınız...">
+                        <hr />
+                    </form>
+                    <ul class="list-group">
+                        <!-- lists appear here----listeler burda görünür-->
+                    </ul>
+                    <a href="#" id="clearButton" class="btn btn-primary btn-sm mt-3">
+                        Tüm Todoları Temizle
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

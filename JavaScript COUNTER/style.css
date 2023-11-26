@@ -1,0 +1,107 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(15, 29, 83, 0.525);
+    background-image: url(PENUP.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+
+}
+
+.section{
+    border: 3px solid rgba(0, 0, 0, 0.262);
+    padding: 25px;
+    border-radius: 15px;
+    backdrop-filter: blur(55px);
+}
+
+.high-button{
+    width: 100px;
+    height: 100px;
+    color: black;
+    font-size: xxx-large;
+    border: 2px solid rgba(255, 255, 255, 0.566);
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(167, 167, 167, 0.566);
+}
+.high-button:hover{
+    background-color: rgba(167, 167, 167, 0.566);
+    border: rgba(167, 167, 167, 0.566);
+    box-shadow: 0px 0px 15px black;
+    cursor: pointer;
+    
+}
+.high-button:active{
+    background-color: rgba(6, 71, 86, 0.462);
+    box-shadow: 0px 0px 25px rgb(0, 0, 0);
+    border:none;
+    
+}
+.number{
+    width: 100px;
+    height: 150px;
+    margin: 20px 0px ;
+    text-align: center;
+    border:2px solid rgb(0, 0, 0);
+    background-color: rgba(167, 167, 167, 0.566);
+    border-radius: 25px;
+    font-size: xxx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.low-button{
+    width: 100px;
+    height: 100px;
+    color: black;
+    font-size: xxx-large;
+    border: 2px solid rgba(255, 255, 255, 0.566);
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(167, 167, 167, 0.566);
+}
+.low-button:hover{
+    background-color: rgba(167, 167, 167, 0.566);
+    border: rgba(167, 167, 167, 0.566);
+    box-shadow: 0px 0px 15px black;
+    cursor: pointer;
+}
+.low-button:active{
+    background-color: rgba(6, 71, 86, 0.462);
+    box-shadow: 0px 0px 25px rgb(0, 0, 0);
+    border:none;
+}
+
+.value-del{
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    color: black;
+    font-size: large;
+    border: 2px solid rgba(255, 255, 255, 0.566);
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(216, 73, 73, 0.566);
+}
+.value-del:hover{
+    background-color: rgba(237, 59, 59, 0.838);
+    border: rgba(167, 167, 167, 0.566);
+    box-shadow: 0px 0px 15px rgba(237, 59, 59, 0.838);
+    cursor: pointer;
+}
+.value-del:active{
+    background-color: rgba(237, 59, 59, 0.962);
+    box-shadow: 0px 0px 25px rgba(237, 59, 59, 0.962);
+    border:none;
+}
+

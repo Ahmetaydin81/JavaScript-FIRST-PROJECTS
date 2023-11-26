@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+   
+}
+body{
+    font-size: 24px;
+    background-image: url(PENUP.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+
+}
+.main-container{
+    width: 95%;
+    margin: auto;
+}
+.container1{
+    margin-left: 5%;
+}
+.container1 button{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.564);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    border: none;
+}
+.container1 button:hover{
+    background-color: rgb(119, 165, 203);
+    box-shadow: 0px 0px 20px 1px rgb(119, 165, 203);
+
+}
+.container1 button:active{
+    background-color: rgb(41, 158, 255);
+    box-shadow: 0px 0px 20px 1px rgb(119, 165, 203);
+    
+}
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.container3{
+    display: none;
+    position: absolute;
+    top:35%;
+    left: 20%;
+}
+textarea{
+    border-radius: 15px;
+    box-shadow:0px 0px 10px 0px grey;
+    outline: none;
+    border: none;
+    width: 255px;
+    height: 255px;
+    padding: 25px 25px 25px 25px ;
+    font-size: 25px;
+    resize: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+
+}
+textarea::placeholder{
+   color: black;
+}
+span{
+    color: gray;
+    border: 3px solid rgb(47, 0, 91);
+    border-radius: 50px;
+
+}
+#check-icon{
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px 15px;
+    position: absolute;
+    right: 17%;
+    top: 80%;
+    scale: 0.9;
+}
+#check-icon:hover{
+    scale: 1;
+    box-shadow: 0px 0px 15px 1px rgb(103, 0, 199);
+
+}
+#x-icon{
+    cursor: pointer;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    right: 5%;
+    top: 80%;
+    scale: 0.9;
+}
+#x-icon:hover{
+    scale: 1;
+    box-shadow: 0px 0px 15px 1px rgb(103, 0, 199);
+}

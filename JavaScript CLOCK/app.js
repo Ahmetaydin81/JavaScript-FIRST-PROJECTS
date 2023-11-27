@@ -20,7 +20,7 @@ function date(){
     let date = new Date;
 
     document.getElementById("day").innerHTML =
-    date.getDate()+"."+date.getMonth()+"."+date.getFullYear();
+    (date.getDate(),27)+"."+(date.getMonth(),11)+"."+(date.getFullYear(),2023);
 }
 
 date()
